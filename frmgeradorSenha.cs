@@ -117,8 +117,8 @@ namespace Geradorador_de_Senha
                 cboSenha.Items.Add(txtSenha);
             }
         }
- 
-        private void chkHistoricodeSenha_CheckedChanged(object sender, EventArgs e)
+
+        private void chkHistoricodeSenha_CheckedChanged_1(object sender, EventArgs e)
         {
             if (chkHistoricodeSenha.Checked)
             {

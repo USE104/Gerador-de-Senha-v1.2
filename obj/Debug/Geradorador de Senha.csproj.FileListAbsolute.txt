@@ -1,0 +1,12 @@
+C:\Users\joseh\source\repos\Privacy\Geradorador de Senha\obj\Debug\Geradorador de Senha.csproj.AssemblyReference.cache
+C:\Users\joseh\source\repos\Privacy\Geradorador de Senha\obj\Debug\Geradorador de Senha.csproj.SuggestedBindingRedirects.cache
+C:\Users\joseh\source\repos\Privacy\Geradorador de Senha\obj\Debug\Geradorador_de_Senha.frmgeradorSenha.resources
+C:\Users\joseh\source\repos\Privacy\Geradorador de Senha\obj\Debug\Geradorador_de_Senha.Properties.Resources.resources
+C:\Users\joseh\source\repos\Privacy\Geradorador de Senha\obj\Debug\Geradorador de Senha.csproj.GenerateResource.cache
+C:\Users\joseh\source\repos\Privacy\Geradorador de Senha\obj\Debug\Geradorador de Senha.csproj.CoreCompileInputs.cache
+C:\Users\joseh\source\repos\Privacy\Geradorador de Senha\bin\Debug\Geradorador de Senha.exe.config
+C:\Users\joseh\source\repos\Privacy\Geradorador de Senha\bin\Debug\Geradorador de Senha.exe
+C:\Users\joseh\source\repos\Privacy\Geradorador de Senha\bin\Debug\Geradorador de Senha.pdb
+C:\Users\joseh\source\repos\Privacy\Geradorador de Senha\obj\Debug\Geradorador de Senha.exe
+C:\Users\joseh\source\repos\Privacy\Geradorador de Senha\obj\Debug\Geradorador de Senha.pdb
+C:\Users\joseh\source\repos\Privacy\Geradorador de Senha\obj\Debug\Geradorador_de_Senha.frmSplash.resources

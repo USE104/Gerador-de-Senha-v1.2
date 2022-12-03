@@ -32,6 +32,9 @@
             this.grpText = new System.Windows.Forms.GroupBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.grpButton = new System.Windows.Forms.GroupBox();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.chkHistoricodeSenha = new System.Windows.Forms.CheckBox();
+            this.label3 = new System.Windows.Forms.Label();
             this.btnLimpar = new System.Windows.Forms.Button();
             this.btnCopiar = new System.Windows.Forms.Button();
             this.btngerarSenha = new System.Windows.Forms.Button();
@@ -40,9 +43,6 @@
             this.btnSair = new System.Windows.Forms.Button();
             this.cboSenha = new System.Windows.Forms.ComboBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.chkHistoricodeSenha = new System.Windows.Forms.CheckBox();
-            this.label3 = new System.Windows.Forms.Label();
             this.grpText.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.grpButton.SuspendLayout();
@@ -82,6 +82,42 @@
             this.grpButton.Size = new System.Drawing.Size(214, 178);
             this.grpButton.TabIndex = 1;
             this.grpButton.TabStop = false;
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.BackColor = System.Drawing.SystemColors.Info;
+            this.groupBox1.Controls.Add(this.chkHistoricodeSenha);
+            this.groupBox1.Controls.Add(this.label3);
+            this.groupBox1.Location = new System.Drawing.Point(6, 19);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(197, 50);
+            this.groupBox1.TabIndex = 3;
+            this.groupBox1.TabStop = false;
+            // 
+            // chkHistoricodeSenha
+            // 
+            this.chkHistoricodeSenha.AutoSize = true;
+            this.chkHistoricodeSenha.BackColor = System.Drawing.SystemColors.Info;
+            this.chkHistoricodeSenha.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.chkHistoricodeSenha.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold);
+            this.chkHistoricodeSenha.Location = new System.Drawing.Point(40, 25);
+            this.chkHistoricodeSenha.Name = "chkHistoricodeSenha";
+            this.chkHistoricodeSenha.Size = new System.Drawing.Size(109, 23);
+            this.chkHistoricodeSenha.TabIndex = 10;
+            this.chkHistoricodeSenha.Text = "Desabilitar";
+            this.chkHistoricodeSenha.UseVisualStyleBackColor = false;
+            this.chkHistoricodeSenha.CheckedChanged += new System.EventHandler(this.chkHistoricodeSenha_CheckedChanged_1);
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.SystemColors.Info;
+            this.label3.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold);
+            this.label3.Location = new System.Drawing.Point(17, 3);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(163, 19);
+            this.label3.TabIndex = 9;
+            this.label3.Text = "Histórico de Senhas";
             // 
             // btnLimpar
             // 
@@ -181,41 +217,6 @@
             this.label2.Size = new System.Drawing.Size(231, 19);
             this.label2.TabIndex = 5;
             this.label2.Text = "Histórico de Senhas Geradas";
-            // 
-            // groupBox1
-            // 
-            this.groupBox1.BackColor = System.Drawing.SystemColors.Info;
-            this.groupBox1.Controls.Add(this.chkHistoricodeSenha);
-            this.groupBox1.Controls.Add(this.label3);
-            this.groupBox1.Location = new System.Drawing.Point(6, 19);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(197, 50);
-            this.groupBox1.TabIndex = 3;
-            this.groupBox1.TabStop = false;
-            // 
-            // chkHistoricodeSenha
-            // 
-            this.chkHistoricodeSenha.AutoSize = true;
-            this.chkHistoricodeSenha.BackColor = System.Drawing.SystemColors.Info;
-            this.chkHistoricodeSenha.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.chkHistoricodeSenha.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold);
-            this.chkHistoricodeSenha.Location = new System.Drawing.Point(40, 25);
-            this.chkHistoricodeSenha.Name = "chkHistoricodeSenha";
-            this.chkHistoricodeSenha.Size = new System.Drawing.Size(109, 23);
-            this.chkHistoricodeSenha.TabIndex = 10;
-            this.chkHistoricodeSenha.Text = "Desabilitar";
-            this.chkHistoricodeSenha.UseVisualStyleBackColor = false;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.SystemColors.Info;
-            this.label3.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold);
-            this.label3.Location = new System.Drawing.Point(17, 3);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(163, 19);
-            this.label3.TabIndex = 9;
-            this.label3.Text = "Histórico de Senhas";
             // 
             // frmgeradorSenha
             // 
